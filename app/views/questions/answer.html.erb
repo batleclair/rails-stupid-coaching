@@ -1,0 +1,15 @@
+<h1 class="m-1 mb-3">Stupid coaching</h1>
+
+<div class="card-border ps-4 pt-1 pb-1 m-1 mb-3">
+    <p><%= @question %></p>
+    <p><i>- You</i></p>
+</div>
+
+<div class="card-border card-yellow-back ps-4 pt-1 pb-1 m-1">
+  <p><%= @coach_response %></p>
+  <p><i>- Your coach</i></p>
+</div>
+
+<div class="backlink">
+  <%= link_to 'Ask a new question', ask_path %>
+</div>

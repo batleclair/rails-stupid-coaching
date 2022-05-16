@@ -1,0 +1,15 @@
+.card-border {
+  border-left: solid 8px darkgrey;
+}
+
+.card-yellow-back {
+  background-color: #FFFFE1;
+}
+
+.backlink {
+  margin-left: 5px;
+}
+
+.backlink a {
+  text-decoration: none;
+}
